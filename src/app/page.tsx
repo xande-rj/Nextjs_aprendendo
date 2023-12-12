@@ -1,11 +1,11 @@
 
-
+import Navbar from './componets/navbar/navbabr'
 
 export default function Home() {
   return (
     <main >
+      <Navbar/>
       Hello world
-      <a href="/about">About</a>
     </main>
   )
 }
