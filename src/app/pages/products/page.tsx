@@ -1,6 +1,7 @@
 import React from "react";
 import Shirt from "../../componets/Shirts/shirt";
 import Link from "next/link";
+import Navbar from "@/app/componets/navbar/navbabr";
 
 const produto = {
   nome: "Polo",
@@ -12,7 +13,6 @@ export default function Products() {
   return (
     <>
       <Shirt {...produto} />
-      <Link href="/">Begin</Link>
     </>
   );
 }

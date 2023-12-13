@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 
+import MainComponent from './componets/mainComponent/MainComponent'
 
 
 export const metadata: Metadata = {
@@ -15,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+    <MainComponent>
+
       <body >{children}</body>
+      </MainComponent>
+
     </html>
   )
 }

@@ -1,11 +1,8 @@
 
-import Navbar from './componets/navbar/navbabr'
+import MainComponent from './componets/mainComponent/MainComponent'
 
 export default function Home() {
   return (
-    <main >
-      <Navbar/>
-      Hello world
-    </main>
+      <h1>Hello World</h1>
   )
 }
