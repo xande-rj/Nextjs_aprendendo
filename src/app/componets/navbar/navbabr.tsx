@@ -18,6 +18,9 @@ export default function Navbar() {
       <li>
         <Link href="/pages/contact">Contact</Link>
       </li>
+      <li>
+        <Link href="/pages/todo">To-do</Link>
+      </li>
     </ul>
   );
 }
