@@ -8,12 +8,23 @@ interface Camisa {
 }
 
 export default function Shirt({ nome, preco, tamanho, cor }: Camisa) {
-  return (
-    <div>
+  if(cor == "Azul"){
+    return(
+      <div>
       <h1>{nome}</h1>
       <h1>{preco}</h1>
       <h1>{tamanho}</h1>
       <h1>{cor}</h1>
     </div>
+    )
+  }else{
+  return (
+    <div>
+      <h1>{nome}</h1>
+      <h1>{preco}</h1>
+      <h1>{tamanho}</h1>
+     
+    </div>
   );
+}
 }

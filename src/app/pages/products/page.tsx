@@ -1,7 +1,11 @@
 import React from "react";
 import Shirt from "../../componets/Shirts/shirt";
-import Link from "next/link";
-import Navbar from "@/app/componets/navbar/navbabr";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description: "Products Page",
+};
 
 const produto = {
   nome: "Polo",
@@ -9,6 +13,7 @@ const produto = {
   tamanho: "G",
   cor: "Azul",
 };
+
 export default function Products() {
   return (
     <>
